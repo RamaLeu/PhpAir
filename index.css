@@ -1,0 +1,74 @@
+.owner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #ccc8cc;
+    height: 100px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+.pInfo{
+    border: 2px solid black;
+    width: 170px;
+    height: 50%;
+    font-size: 40px;
+}
+.ticket{
+    background-color: #969696;
+    height: 305px;
+    width: 1000px;
+}
+.fromTo{
+    display: flex;
+    border: 2px solid brown;
+    height: 200px;
+    width: 80%;
+    background-color: green;
+}
+.from{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc8cc;
+    border: 2px solid black;
+    width: 50%;
+}
+.to{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc8cc;
+    border: 2px solid black;
+    width: 50%;
+}
+.text{
+    font-size: 25px;
+}
+.tText{
+    font-size: 50px;
+}
+.time{
+    font-size: 30px;
+}
+.idNum{
+    border: 2px solid black;
+}
+.mainTi{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 305px;
+}
+.mainForm{
+    display: flex;
+
+}
+.eText{
+    word-wrap: break-word;
+    width: 150px;
+}
